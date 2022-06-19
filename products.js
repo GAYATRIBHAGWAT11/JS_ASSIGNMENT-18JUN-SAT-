@@ -3,7 +3,7 @@ let a = parseInt(process.argv[2])
   // write your code here
   let product = 1;
   for(let i = a;i<=b ;i ++){
-    let check = Math.floor(i/10);s
+    let check = Math.floor(i/10);
   	if(i%2==0 && check%10==4){
       product = product * i;
 	  }

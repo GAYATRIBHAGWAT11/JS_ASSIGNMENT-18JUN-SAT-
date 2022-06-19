@@ -1,9 +1,8 @@
 let n=432;
+let sum=0;
 while(n>0){
     rem=Math.floor(n%10);
-    n=n/10;
-    console.log(rem);
+    sum=sum*10+rem;
+    n=Math.floor(n/10);  
 }
-
-
-// this programm runs correctly but after getting o/p its give 0
+console.log(sum)
